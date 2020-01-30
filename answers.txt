@@ -1,0 +1,40 @@
+(base) Julias-MBP:~ juliadonald$ cd Desktop
+(base) Julias-MBP:Desktop juliadonald$ cd Python_2020/
+(base) Julias-MBP:Python_2020 juliadonald$ mkdir "Week_01"
+(base) Julias-MBP:Week_01 juliadonald$ cd Week_01 
+(base) Julias-MBP:Week_01 juliadonald$ mkdir "S1"
+ (base) Julias-MBP: Week_01 juliadonald$ jupyter notebook
+ (base) Julias-MBP:Week_01 juliadonald$ cd S1
+(base) Julias-MBP:S1 juliadonald$ mkdir "S3"
+(base) Julias-MBP:S1 juliadonald$ cd S3
+ (base) Julias-MBP: S3 juliadonald$ jupyter notebook
+(base) Julias-MBP:S3 juliadonald$ cd ..
+(base) Julias-MBP:S1 juliadonald$ mkdir "S2"
+(base) Julias-MBP:s1 juliadonald$ cd S2 
+(base) Julias-MBP:S2 juliadonald$ mkdir "Andvancd" 
+(base) Julias-MBP:S2 juliadonald$ jupyter notebook
+(base) Julias-MBP:S2 juliadonald$ cd Andvancd
+(base) Julias-MBP:Andvancd juliadonald$ jupyter notebook
+
+
+
+Then new script
+(base) Julias-MBP:~ juliadonald$ cd Desktop
+(base) Julias-MBP:Desktop juliadonald$ cd Python_2020/
+(base) Julias-MBP:Python_2020 juliadonald$ cd Week_01/
+(base) Julias-MBP:Week_01 juliadonald$ cd s3
+-bash: cd: s3: No such file or directory
+(base) Julias-MBP:Week_01 juliadonald$ cd S3
+-bash: cd: S3: No such file or directory
+(base) Julias-MBP:Week_01 juliadonald$ cd S1
+(base) Julias-MBP:S1 juliadonald$ cd S3
+(base) Julias-MBP:S3 juliadonald$ open(conf.txt)
+-bash: syntax error near unexpected token `conf.txt'
+(base) Julias-MBP:S3 juliadonald$ open conf.txt
+(base) Julias-MBP:S3 juliadonald$ cd ..
+(base) Julias-MBP:S1 juliadonald$ cd S2
+(base) Julias-MBP:S2 juliadonald$ open text_chunk1.txt
+(base) Julias-MBP:S2 juliadonald$ cd Andvanced
+-bash: cd: Andvanced: No such file or directory
+(base) Julias-MBP:S2 juliadonald$ cd Andvancd
+(base) Julias-MBP:Andvancd juliadonald$ open text_chunk2.txt
